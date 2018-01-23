@@ -5,6 +5,7 @@ interface Person {
 
 function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
+    ohmy; // alarm
 }
 
 let user = { firstName: "Jane", lastName: "User" };
