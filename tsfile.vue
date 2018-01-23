@@ -20,20 +20,7 @@
 </template>
 
 <script>
-import Vue from 'vue'
-x; // alarm
-declare module 'vue/types/vue' {
-  // Global properties can be declared
-  // on the `VueConstructor` interface
-  interface VueConstructor {
-    $myGlobal: string
-  }
-}
-
-// ComponentOptions is declared in types/options.d.ts
-declare module 'vue/types/options' {
-  interface ComponentOptions<V extends Vue> {
-    myOption?: string
-  }
-}
+let x: Widget = getWidget(43);
+oops; // alarm
+let arr: Widget[] = getWidget("all of them");
 </script>
