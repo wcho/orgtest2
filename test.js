@@ -10,3 +10,5 @@ function CWE_476() { // NULL_POINTER
     var y = obj.x;
     console.log(y);
 }
+
+bug;
